@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Md Tamim Ahmed — CSE Student & Developer</title>
   <meta name="description" content="Academic and developer portfolio of Md Tamim Ahmed, CSE student, developer and research enthusiast." />
 
@@ -31,13 +32,12 @@
       <a href="#projects">Projects</a>
       <a href="#awards">Certificates</a>
       <a href="#contact">Contact</a>
-      <a class="photo-btn" href="#hobby">Hobby</a>
+      <a class="photo-btn" href="#hobby">⚽ Hobby</a>
     </nav>
   </header>
 
   <main>
 
-    <!-- HERO SECTION -->
     <section id="home" class="hero section">
       <div class="hero-inner container">
 
@@ -77,7 +77,6 @@
       </div>
     </section>
 
-    <!-- ABOUT SECTION -->
     <section id="about" class="section container two-col">
       <div>
         <h2 class="section-title"><span></span>About</h2>
@@ -118,7 +117,11 @@
         </div>
 
         <div class="info-row">
-          <span>📍</span>
+          <span class="icon-location">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/>
+            </svg>
+          </span>
           <small>Address</small>
           <p>East Siachor, Kutubpur, Fatullah, Narayanganj, Bangladesh</p>
         </div>
@@ -130,14 +133,13 @@
         </div>
 
         <div class="info-row">
-          <span>⚽</span>
+          <span class="icon-football">⚽</span>
           <small>Hobby</small>
           <p>Playing Football</p>
         </div>
       </aside>
     </section>
 
-    <!-- SKILLS SECTION -->
     <section id="skills" class="section container">
       <h2 class="section-title"><span></span>Professional Skills</h2>
 
@@ -162,7 +164,6 @@
       </div>
     </section>
 
-    <!-- EDUCATION SECTION -->
     <section id="education" class="section container timeline-section">
       <h2 class="section-title"><span></span>Education</h2>
 
@@ -198,7 +199,6 @@
       </div>
     </section>
 
-    <!-- RESEARCH SECTION -->
     <section id="research" class="section container">
       <h2 class="section-title"><span></span>Research & Publications</h2>
 
@@ -229,7 +229,6 @@
       </div>
     </section>
 
-    <!-- COURSES SECTION -->
     <section id="courses" class="section container">
       <h2 class="section-title"><span></span>Courses Learned</h2>
 
@@ -243,7 +242,6 @@
       </div>
     </section>
 
-    <!-- PROJECTS SECTION -->
     <section id="projects" class="section container projects-section">
       <h2 class="section-title"><span></span>Selected Projects</h2>
 
@@ -297,7 +295,6 @@
       </article>
     </section>
 
-    <!-- CERTIFICATES SECTION -->
     <section id="awards" class="section container">
       <h2 class="section-title"><span></span>Certificates & Achievements</h2>
 
@@ -325,7 +322,6 @@
       </div>
     </section>
 
-    <!-- HOBBY SECTION -->
     <section id="hobby" class="section container hobby-section">
       <h2 class="section-title"><span></span>Hobby</h2>
 
@@ -341,34 +337,71 @@
       </div>
     </section>
 
-    <!-- CONTACT SECTION -->
     <section id="contact" class="section container contact-section">
       <h2 class="section-title"><span></span>Contact</h2>
 
       <div class="contact-grid">
         <div class="contact-info">
-          <p>☎ <a href="tel:+8801575834592">+880 1575 834592</a></p>
-          <p>✉ <a href="mailto:mdtamimahmedfardinid31@gmail.com">mdtamimahmedfardinid31@gmail.com</a></p>
-          <p>📍 East Siachor, Kutubpur, Fatullah, Narayanganj, Bangladesh</p>
-          <p>in <a href="https://linkedin.com/in/md-tamim-ahmed-fardin" target="_blank" rel="noopener">LinkedIn Profile</a></p>
-          <p>GH <a href="https://github.com/fardinjahan1000-max" target="_blank" rel="noopener">GitHub Profile</a></p>
+
+          <p>
+            <span class="contact-icon">☎</span>
+            <a href="tel:+8801575834592">+880 1575 834592</a>
+          </p>
+
+          <p>
+            <span class="contact-icon">✉</span>
+            <a href="mailto:mdtamimahmedfardinid31@gmail.com">mdtamimahmedfardinid31@gmail.com</a>
+          </p>
+
+          <p>
+            <span class="contact-icon icon-location">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/>
+              </svg>
+            </span>
+            East Siachor, Kutubpur, Fatullah, Narayanganj, Bangladesh
+          </p>
+
+          <p>
+            <span class="contact-icon">in</span>
+            <a href="https://linkedin.com/in/md-tamim-ahmed-fardin" target="_blank" rel="noopener">LinkedIn Profile</a>
+          </p>
+
+          <p>
+            <span class="contact-icon">GH</span>
+            <a href="https://github.com/fardinjahan1000-max" target="_blank" rel="noopener">GitHub Profile</a>
+          </p>
+
+          <p>
+            <span class="contact-icon icon-football">⚽</span>
+            Playing Football
+          </p>
+
+          <form class="contact-form" action="mailto:mdtamimahmedfardinid31@gmail.com" method="post" enctype="text/plain">
+            <label>Your Name
+              <input type="text" name="name" placeholder="Full name">
+            </label>
+
+            <label>Email Address
+              <input type="email" name="email" placeholder="you@example.com">
+            </label>
+
+            <label>Message
+              <textarea name="message" placeholder="Your message..."></textarea>
+            </label>
+
+            <button type="submit">Send Message</button>
+          </form>
         </div>
 
-        <form class="contact-form" action="mailto:mdtamimahmedfardinid31@gmail.com" method="post" enctype="text/plain">
-          <label>Your Name
-            <input type="text" name="name" placeholder="Full name">
-          </label>
-
-          <label>Email Address
-            <input type="email" name="email" placeholder="you@example.com">
-          </label>
-
-          <label>Message
-            <textarea name="message" placeholder="Your message..."></textarea>
-          </label>
-
-          <button type="submit">Send Message</button>
-        </form>
+        <div class="map-box">
+          <iframe
+            title="Md Tamim Ahmed Location Map"
+            src="https://www.google.com/maps?q=East%20Siachor%2C%20Kutubpur%2C%20Fatullah%2C%20Narayanganj%2C%20Bangladesh&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
       </div>
     </section>
 
